@@ -1,0 +1,53 @@
+Ls => list of all folder/files
+
+Ls -a => shows hidden files as well
+(any file starts "." is hidden)
+
+Ls -L => list of files and folder
+
+
+Cd .. => goes 1 level back
+Cd ../.. => multiple jumps
+
+Cd Desktop => go 1 level ahead
+
+Mkdir  sam => create folder
+Cd sam => go 1 level ahead sam folder
+
+Touch  a.txt
+
+Cat  a.txt // read from that file
+
+Cat > a.txt // write fresh data
+Ctrl + d //to save the data written
+
+Cat >> a.txt // write along with old data
+Ctrl + d //to save the data written
+
+
+Mv  a.txt  d.txt         //rename it
+Mv  samm  bottle   //rename it
+
+Cp  a.txt  d.txt  //copy files
+Cp -r  samm mavv //copy folder
+
+
+Rm g.txt                            //remove files
+Rm -r or rm -rf  sammy  //remove folders
+
+History  //list of prev commands
+
+Mkdir sam && cd sam
+
+//multiple jobs together
+Cd ..  &&  mv  sam  samarth
+
+
+vim a.txt
+//press I to insert mode
+// Write some data
+
+:w //save the file
+:q // to quit the file
+
+:wq pr :wq! (forceful)
