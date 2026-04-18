@@ -1,0 +1,29 @@
+section {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+article{
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    height: 200px;
+    align-self: flex-end;
+}
+
+/* .article1 {
+    align-self: center;
+} */
+
+.article1{
+    order: 2;
+
+}
