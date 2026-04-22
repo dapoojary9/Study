@@ -1,7 +1,7 @@
 .container {
     height: 700px;
     border: 1px solid black;
-    background-color: rgb(1, 14, 9);
+    background-color: rgb(13, 85, 57);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,9 +14,9 @@
     background-color: beige;
     margin: 20px;
     padding: 10px;
-    /* box-shadow: 10px 5px 5px 5px brown; */
+    box-shadow: 10px 5px 5px 5px brown;
 }
 
 h1 {
-    text-shadow: 10px 10px 10px white;
+    text-shadow: 10px 10px 5px  rgb(110, 13, 13);
 }
